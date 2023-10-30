@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Diseño Responcive</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+      <link rel="stylesheet" type="text/css" href="style.css">
+   </head>
+   <body>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+         <div class="container">
+            <a href="#" class="navbar-brand"><span class="text-primary">Playa</span>Code</a>
+            <!-- Este es un enlace a la página de inicio de PlayaCode -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarS" aria-controls="navbarS" aria-expanded="false" aria-label="toggle-navigation">
+               <!-- Botón de navegación colapsable con atributos Bootstrap y etiquetas ARIA para accesibilidad -->
+               <!-- Ícono del botón de navegación colapsable (utilizado en Bootstrap) -->
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarS">
+               <!-- Esta es la barra de navegación colapsable con el identificador "navbarS" -->
+               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <!-- Esta línea de código crea una lista desordenada (ul) con clases de estilo para una barra de navegación. La clase      "navbar-nav" se utiliza para estilizar los elementos de la barra de navegación, mientras que las clases "ms-auto" y "mb-2 mb-lg-0" pueden controlar la alineación y el espaciado de los elementos en la barra de navegación. -->
+                  <li class="nav-item">
+                     <a href="#" class="nav-link">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="#" class="nav-link">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="#" class="nav-link">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="#" class="nav-link">Porfolio</a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="#" class="nav-link">Equipo</a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="#" class="nav-link">Contactos</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <!-- Inicio de un carrusel con el identificador "carruselE2" y la clase "carousel slide" -->
+      <div id="carruselE2" class="carousel slide" data-bs-ride="carousel">
+         <!-- Indicadores del carrusel (pueden utilizarse para la navegación) -->
+         <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carruselE2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carruselE2" data-bs-slide-to="1" aria-current="false" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carruselE2" data-bs-slide-to="2" aria-current="false" aria-label="Slide 3"></button>
+         </div>
+         <!-- Contenido de las diapositivas -->
+         <div class="carousel-inner">
+            <div class="carousel-item active">
+               <img src="https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="Playa 1">
+               <div class="carousel-caption">
+                  <h5>Playa con buceo</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia .</p>
+                  <a href="#" class="btn btn-primary mt-3">Más información</a>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <img src="https://images.unsplash.com/photo-1696446701744-f548de20f463?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="Playa 2">
+               <div class="carousel-caption">
+                  <h5>Playa con buceo</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  <a href="#" class="btn btn-primary mt-3">Más información</a>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <img src="https://images.unsplash.com/photo-1591017403286-fd8493524e1e?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="Playa 3">
+               <div class="carousel-caption">
+                  <h5>Playa con buceo</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  <a href="#" class="btn btn-primary mt-3">Más información</a>
+               </div>
+            </div>
+         </div>
+         <!-- Controles de navegación siguiene y anterior  -->
+         <a class="carousel-control-prev" href="#carruselE2" role="button" data-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="sr-only"></span>
+         </a>
+         <a class="carousel-control-next" href="#carruselE2" role="button" data-slide="next">
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="sr-only"></span>
+         </a>
+      </div>
+      <section class="about section-padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-4 col-md-12 col-12">
+                  <div class="about-img">
+                     <!-- Aquí puedes agregar contenido dentro de "about-img" si es necesario -->
+                     <img src="https://images.unsplash.com/photo-1679679008398-1b01fd7698bc?auto=format&fit=crop&q=80&w=1374&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid" alt="">
+                  </div>
+               </div>
+               <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+                  <div class="about-text text-white">
+                     <h2>Hoteles y playa<br>Servicios</h2>
+                     <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                     </p>
+                     <a href="#" class="btn btn-primary">Mas informacion</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="services section-padding">
+         <div class="container">
+            <div class="row">
+               <div class=" col-md-12">
+                  <di class="section-header text-center text-white pb-5">
+                     <h2>Nuestros  Servicios</h2>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  </di>
+               </div>
+            </div>
+            <div class="row">
+               <div class=" col-12 col-md-12 col-lg-4">
+                  <div class="card text-white text-center bg-dark pb-2">
+                     <div class="card-body">
+                        <i class="bi bi-laptop"></i>
+                        <h3 class="card-title">Registro</h3>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <button class="btn bg-primary text-white">Más información</button>
+                     </div>
+                  </div>
+               </div>
+               <div class=" col-12 col-md-12 col-lg-4">
+                  <div class="card text-white text-center bg-dark pb-2">
+                     <div class="card-body">
+                        <i class="bi bi-wifi"></i>
+                        <h3 class="card-title">Internet</h3>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <button class="btn bg-primary text-white">Más información</button>
+                     </div>
+                  </div>
+               </div>
+               <div class=" col-12 col-md-12 col-lg-4">
+                  <div class="card text-white text-center bg-dark pb-2">
+                     <div class="card-body">
+                        <i class="bi bi-tv"></i>
+                        <h3 class="card-title">TV</h3>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <button class="btn bg-primary text-white">Más información</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Puedes agregar más elementos HTML como párrafos, imágenes, enlaces, formularios, etc. -->
+      <section class="portfolio section-padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="section-header text-center text-white pb-5">
+                     <h2>Playas</h2>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-12 col-md-12 col-lg-4">
+                  <div class="card text-light text-center bg-dark pb-2">
+                     <div class="card-body text-white">
+                        <div class="img-area mb-4">
+                           <!-- Contenido de tu imagen o elementos aquí  tener en cueta-->
+                           <div>
+                              <img src="https://cdn.pixabay.com/photo/2016/10/18/21/22/beach-1751455_1280.jpg" class="img-fluid" alt="">
+                           </div>
+                           <h3>Playa 1</h3>
+                           <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                           <button class="btn bg-primary text-white">Más información</button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-12 col-md-12 col-lg-4">
+                  <div class="card text-light text-center bg-dark pb-2">
+                     <div class="card-body text-white">
+                        <div class="img-area mb-4">
+                           <!-- Contenido de tu imagen o elementos aquí -->
+                           <div>
+                              <img src="https://cdn.pixabay.com/photo/2017/12/15/13/51/polynesia-3021072_1280.jpg" class="img-fluid" alt="">
+                           </div>
+                           <h3>Playa 2</h3>
+                           <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                           <button class="btn bg-primary text-white">Más información</button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="team section-padding">
+         <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="section-header text-center text-white pb-5">
+                  <h2>Asesores</h2>
+                  <p>
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+         <div class="row">
+            <div class="col-12 col-md-6 col-lg-3">
+               <div class="card text-center bg-dark">
+                  <div class="card-body text-white">
+                     <!-- El contenido de tu tarjeta debería ir aquí -->
+                     <img src="https://plus.unsplash.com/premium_photo-1683140861190-58754cc9daa2?auto=format&fit=crop&q=80&w=1471&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-redonda" alt="" width="220" height="210">
+                     <h3 class="card-title py-2">Lorem</h3>
+                     <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                     </p>
+                     <p class="socials">
+                        <i class="bi bi-twitter text-white mx-1"></i>
+                        <i class="bi bi-facebook text-white mx-1"></i>
+                        <i class="bi bi-linkedin text-white mx-1"></i>
+                        <i class="bi bi-instagram text-white mx-1"></i>
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+               <div class="card text-center bg-dark">
+                  <div class="card-body text-white">
+                     <!-- El contenido de tu tarjeta debería ir aquí -->
+                     <img src="https://images.unsplash.com/photo-1598257006458-087169a1f08d?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-redonda" alt="" width="220" height="210">
+                     <h3 class="card-title py-2">Lorem</h3>
+                     <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                     </p>
+                     <p class="socials">
+                        <i class="bi bi-twitter text-white mx-1"></i>
+                        <i class="bi bi-facebook text-white mx-1"></i>
+                        <i class="bi bi-linkedin text-white mx-1"></i>
+                        <i class="bi bi-instagram text-white mx-1"></i>
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+               <div class="card text-center bg-dark">
+                  <div class="card-body text-white">
+                     <!-- El contenido de tu tarjeta debería ir aquí -->
+                     <img src="https://images.unsplash.com/photo-1600275669283-4bf2bb8a990c?auto=format&fit=crop&q=80&w=1374&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-redonda" alt="" width="220" height="210">
+                     <h3 class="card-title py-2">Lorem</h3>
+                     <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                     <p class="socials">
+                        <i class="bi bi-twitter text-white mx-1"></i>
+                        <i class="bi bi-facebook text-white mx-1"></i>
+                        <i class="bi bi-linkedin text-white mx-1"></i>
+                        <i class="bi bi-instagram text-white mx-1"></i>
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+               <div class="card text-center bg-dark">
+                  <div class="card-body text-white">
+                     <!-- El contenido de tu tarjeta debería ir aquí -->
+                     <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-redonda" alt="" width="220" height="210">
+                     <h3 class="card-title py-2">Lorem</h3>
+                     <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                     <p class="socials">
+                        <i class="bi bi-twitter text-white mx-1"></i>
+                        <i class="bi bi-facebook text-white mx-1"></i>
+                        <i class="bi bi-linkedin text-white mx-1"></i>
+                        <i class="bi bi-instagram text-white mx-1"></i>
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="contact section-padding">
+         <div class="container mt-5 mb-5">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="section-header text-center text-white pb-5">
+                  <h2>Contacto</h2>
+                  <p>
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco.
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-12 p-0 pt-4 pb-4">
+               <form action="#" class="bg-dark p-4 m-auto">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <div class="mb-3">
+                           <input type="text" class="form-control" placeholder="Nombre">
+                        </div>
+                     </div>
+                     <div class="col-md-12">
+                        <div class="mb-3">
+                           <input type="mail" class="form-control" placeholder="Correo">
+                        </div>
+                     </div>
+                     <div class="col-md-12">
+               <form>
+               <div class="mb-3">
+               <textarea class="form-control" placeholder="Mensaje" rows="3"></textarea>
+               </div>
+               <button class="btn btn-primary btn-lg btn-block mt-3" type="submit">Enviar</button>
+               </form>
+               </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      </section>
+      <footer class="bg-dark p-2 text-center">
+         <div class="container">
+            <p class="text-white">Playas de Mexico &copy; Bruno Ivan</p>
+         </div>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   </body>
+</html>

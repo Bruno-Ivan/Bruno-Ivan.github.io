@@ -1,0 +1,172 @@
+/* Estilos generales para todo el documento */
+/* Establece la fuente para todo el contenido en Arial, Helvetica o sans-serif */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Establece un fondo de color oscuro para el cuerpo del documento */
+body {
+  background: #161815;
+}
+
+/* Agrega un relleno (padding) de 70px arriba y abajo para elementos con la clase "section-padding" */
+.section-padding {
+  padding: 70px 0;
+}
+
+/* Establece la altura y la altura mínima para los elementos con la clase "carousel-item" */
+.carousel-item {
+  height: 80vh;
+  min-height: 300px;
+}
+
+/* Ajusta la posición y la superposición de la leyenda del carrusel */
+.carousel-caption {
+  bottom: 200px;
+  z-index: 2;
+}
+
+/* Estilos para el título de la leyenda del carrusel */
+.carousel-caption h5 {
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+
+/* Estilos para el párrafo de la leyenda del carrusel */
+.carousel-caption p {
+  width: 60%;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.9;
+}
+
+/* Agrega un fondo semitransparente antes de los elementos del carrusel */
+.carousel-inner::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 30, 82, 0.327);
+  z-index: 1;
+}
+
+/* Estilos para los enlaces en la barra de navegación */
+.navbar-nav a {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+/* Establece el color y estilos para el texto del logotipo de la barra de navegación en modo oscuro */
+.navbar-dark .navbar-brand {
+  color: #fff;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+/* Cambia el color del logotipo de la barra de navegación en modo oscuro al enfocar o pasar el mouse */
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+  color: #000;
+}
+
+/* Establece la altura del 100% de la ventana para elementos con la clase "w-100" */
+.w-100 {
+  height: 100vh;
+}
+
+/* Estilos para el botón de alternar de la barra de navegación */
+.navbar-toggler {
+  padding: 1px 5px;
+  font-size: 18px;
+  line-height: 0.3;
+}
+
+/* Establece el tamaño de iconos para elementos con la clase "services" */
+.services .card-body i {
+  font-size: 50px;
+}
+
+/* Establece el tamaño de iconos para elementos con la clase "team" */
+.team .card-body i {
+  font-size: 20px;
+}
+
+/* Centra los elementos en una fila (row) */
+.row {
+  justify-content: center;
+}
+
+/* Establece estilos para imágenes redondas */
+.img-redonda {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+/* Estilos aplicados cuando la ventana tiene un ancho máximo de 767px (diseño responsive) */
+@media (max-width: 767px) {
+  /* Alinea el texto en el centro en la barra de navegación */
+  .navbar-nav {
+    text-align: center;
+  }
+
+  /* Ajusta la altura de los elementos del carrusel en modo responsive */
+  .carousel-item {
+    height: 70vh;
+  }
+
+  /* Ajusta la altura de elementos con la clase "w-100" en modo responsive */
+  .w-100 {
+    height: 70vh;
+  }
+
+  /* Ajusta la posición de la leyenda del carrusel en modo responsive */
+  .carousel-caption {
+    bottom: 125px;
+  }
+
+  /* Ajusta el tamaño del título de la leyenda en modo responsive */
+  .carousel-caption h5 {
+    font-size: 17px;
+  }
+
+  /* Ajusta el tamaño y el espaciado del texto del enlace en modo responsive */
+  .carousel-caption a {
+    padding: 10px 15px;
+    font-size: 15px;
+  }
+
+  /* Ajusta el ancho y el espaciado de los párrafos de la leyenda en modo responsive */
+  .carousel-caption p {
+    width: 100%;
+    line-height: 1.5;
+    font-size: 12px;
+  }
+
+  /* Agrega un espacio superior a los elementos con la clase "about-text" en modo responsive */
+  .about-text {
+    padding-top: 50px;
+  }
+
+  /* Establece un margen para elementos con la clase "card" en modo responsive */
+  .card {
+    margin: 0 0 30px;
+  }
+
+  /* Ajusta el relleno (padding) en modo responsive para elementos con la clase "section-padding" */
+  .section-padding {
+    padding: 50px 0;
+  }
+}
+
+
+    
+  
+
